@@ -5,7 +5,7 @@ import './App.css';
 
 
 import * as mobilenet from "@tensorflow-models/mobilenet";
-import "@tensorflow/tfjs";
+import * as tf from "@tensorflow/tfjs-backend-cpu";
 
 class App extends React.Component {
   state = {
