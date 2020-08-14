@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tfjs-mobilenet/static/css/main.73291b27.chunk.css",
+    "main.js": "/tfjs-mobilenet/static/js/main.c35b77d4.chunk.js",
+    "main.js.map": "/tfjs-mobilenet/static/js/main.c35b77d4.chunk.js.map",
+    "runtime-main.js": "/tfjs-mobilenet/static/js/runtime-main.dcb574f8.js",
+    "runtime-main.js.map": "/tfjs-mobilenet/static/js/runtime-main.dcb574f8.js.map",
+    "static/js/2.162d890a.chunk.js": "/tfjs-mobilenet/static/js/2.162d890a.chunk.js",
+    "static/js/2.162d890a.chunk.js.map": "/tfjs-mobilenet/static/js/2.162d890a.chunk.js.map",
+    "index.html": "/tfjs-mobilenet/index.html",
+    "precache-manifest.65bcfc4b3648c33117bfbec3fb1b2ee2.js": "/tfjs-mobilenet/precache-manifest.65bcfc4b3648c33117bfbec3fb1b2ee2.js",
+    "service-worker.js": "/tfjs-mobilenet/service-worker.js",
+    "static/css/main.73291b27.chunk.css.map": "/tfjs-mobilenet/static/css/main.73291b27.chunk.css.map",
+    "static/js/2.162d890a.chunk.js.LICENSE.txt": "/tfjs-mobilenet/static/js/2.162d890a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dcb574f8.js",
+    "static/js/2.162d890a.chunk.js",
+    "static/css/main.73291b27.chunk.css",
+    "static/js/main.c35b77d4.chunk.js"
+  ]
+}
