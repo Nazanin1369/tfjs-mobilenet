@@ -6,7 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <div id="particles-js">
+      <App />
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
