@@ -1,13 +1,63 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  color: rgba(64, 64, 64, 0.65);
+  font: 500 1em Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+  margin: 0;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*:focus {
+  outline: none !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Dropzone-img {
+  max-width: calc(100vw - 60px);
+  max-height: calc(100vw - 60px);
+  width: 380px;
+  height: 380px;
+  border: thin solid rgba(64, 64, 64, 0.15);
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.Dropzone {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: thin dashed #c2c2c2;
+  background: #fcfcfc;
+  max-width: calc(100vw - 40px);
+  max-height: calc(100vw - 40px);
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.Dropzone-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Dropzone-page {
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.prediction {
+  max-width: calc(100vw - 40px);
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px 0 10px;
 }
